@@ -3,11 +3,11 @@
 
 ## Atualize os seus dados
 
-- Nome:
-- Matrícula:
-- Curso:
-- Semestre/Ano correntes:
-- Link para o seu GitHub:
+- Nome: Luisa Laura Linhares
+- Matrícula: 22.1.8996
+- Curso: Engenharia da Computação
+- Semestre/Ano correntes: 2023/2
+- Link para o seu GitHub: [luisa-linhares](https://github.com/luisa-linhares)
 
 ## [Projeto final:](./Projeto/README.md)
 

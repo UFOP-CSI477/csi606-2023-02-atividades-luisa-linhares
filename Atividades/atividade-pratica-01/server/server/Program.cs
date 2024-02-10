@@ -5,6 +5,15 @@ using server.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddAutoMapper(Assembly.GetExecutingAssembly());
+builder.Services.AddCors(options => 
+{
+    options.AddPolicy("Open", builder =>
+    {
+        builder.AllowAnyOrigin()
+            .AllowAnyHeader()
+            .AllowAnyMethod();
+    });
+});
 var connectionString = builder.Configuration.GetConnectionString("TipoSanguinio") ?? "Data Source=TipoSanguinio.db";
 
 builder.Services.AddEndpointsApiExplorer();

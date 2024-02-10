@@ -21,6 +21,7 @@ builder.Services.AddSqlite<AppDbContext>(connectionString);
 builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
+app.UseCors("Open");
 
 if (app.Environment.IsDevelopment())
 {

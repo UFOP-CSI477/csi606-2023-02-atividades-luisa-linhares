@@ -1,6 +1,6 @@
 # **CSI606-2021-02 - Remoto - Trabalho Final - Resultados**
 
-## *Aluna(o): Princesa Leia (Luke Skywalker)*
+## *Aluna(o): Luisa Linhares*
 
 --------------
 
@@ -8,22 +8,28 @@
 
 ### Resumo
 
-  (Apresentar um breve resumo sobre o seu trabalho, indicando o contexto e as principais funcionalidades.)
+   Esse trabalho é um sistema de reserva de salas, desenvolvido em .net e react.
 
 ### 1. Funcionalidades implementadas
-<!-- Descrever as funcionalidades que eram previstas e foram implementas. -->
+Funcionalidades:
+Listar salas disponíveis para reserva: O usuário seleciona uma data e horário e o sistema lista todas as salas que ainda podem ser reservadas.
+Reservar uma sala: O usuário seleciona a sala da lista de salas disponíveis e efetua uma reserva.
+Cancelar reserva: O usuário seleciona uma reserva feita por ele e a exclui, possibilitando que outros usuários possam reservar aquela sala. 
   
 ### 2. Funcionalidades previstas e não implementadas
-<!-- Descrever as funcionalidades que eram previstas e não foram implementas, apresentando uma breve justificativa do porquê elas não foram incluídas -->
+
 
 ### 3. Outras funcionalidades implementadas
-<!-- Descrever as funcionalidades implementas além daquelas que foram previstas, caso se aplique.  -->
+Funcionalidade de login.
 
 ### 4. Principais desafios e dificuldades
-<!-- Descrever os principais desafios encontrados no desenvolvimento do trabalho, quais foram as dificuldades e como elas foram superadas e resolvidas. -->
+Usar os hooks do react
 
 ### 5. Instruções para instalação e execução
-<!-- Descrever o que deve ser feito para instalar (ou baixar) a aplicação, o que precisa ser configurando (parâmetros, banco de dados e afins) e como executá-la. -->
+Backend:Para executar a aplicação localmente, você precisará instalar o SDK .NET. Depois de instalado, execute `dotnet run` no diretório raiz do projeto onde o arquivo do projeto está localizado. Após executar este comando, você pode abrir a aplicação em seu navegador web usando a URL localhost fornecida.
 
+Frontend: npm install e npm start
 ### 6. Referências
-<!-- Referências podem ser incluídas, caso necessário. Utilize o padrão ABNT. -->
+ https://learn.microsoft.com/en-us/training/modules/build-web-api-minimal-database/
+ https://mui.com/material-ui/getting-started/
+https://docs.automapper.org/en/stable/Getting-started.html

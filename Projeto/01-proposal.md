@@ -1,6 +1,6 @@
 # **CSI606-2021-02 - Remoto - Proposta de Trabalho Final**
 
-## *Aluna(o): Princesa Leia (Luke Skywalker)*
+## *Aluna(o): Luisa Linhares*
 
 --------------
 
@@ -8,28 +8,33 @@
 
 ### Resumo
 
-  (Apresentar um breve resumo sobre o seu trabalho, indicando o contexto e as principais funcionalidades.)
+  Esse trabalho é um sistema de reserva de salas, desenvolvido em .net e react.
 
 <!-- Apresentar o tema. -->
 ### 1. Tema
 
-  O trabalho final tem como tema o desenvolvimento de ...
+  Sistema de reserva de salas.
 
 <!-- Descrever e limitar o escopo da aplicação. -->
 ### 2. Escopo
 
-  Este projeto terá as seguintes funcionalidades...
+Funcionalidades:
+Listar salas disponíveis para reserva: O usuário seleciona uma data e horário e o sistema lista todas as salas que ainda podem ser reservadas.
+Reservar uma sala: O usuário seleciona a sala da lista de salas disponíveis e efetua uma reserva.
+Cancelar reserva: O usuário seleciona uma reserva feita por ele e a exclui, possibilitando que outros usuários possam reservar aquela sala. 
+
 
 <!-- Apresentar restrições de funcionalidades e de escopo. -->
 ### 3. Restrições
 
-  Neste trabalho não serão considerados ...
+  Não foi implementado uma função que faz o gerenciamento de sala.
+  Não foi considerado os aspectos de segurança do login.
 
 <!-- Construir alguns protótipos para a aplicação, disponibilizá-los no Github e descrever o que foi considerado. //-->
 ### 4. Protótipo
 
-  Protótipos para as páginas (descrever quais páginas) foram elaborados, e podem ser encontrados em...
 
 ### 5. Referências
 
-  Referências podem ser incluídas, caso necessário. Utilize o padrão ABNT.
+ https://learn.microsoft.com/en-us/training/modules/build-web-api-minimal-database/
+ https://mui.com/material-ui/getting-started/
